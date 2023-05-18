@@ -1,0 +1,24 @@
+
+#But du jeu:
+Etre le premier a avoir 15points
+
+Créer une variable: compteurDePoint
+    A chaque tour, si compteurDePoint >= 15: 
+        Gagne, sinon:
+        Tour suivant
+
+#Le joueur peut faire 3 actions:
+
+Action 1 - Prendre des gemmes
+
+Créer une variable "StockGemmeJoueur1" et "StockGemmeJoueur2"
+Créer une variable "BanqueDeGemmes" comprenant plusieurs objet avec 2 attributs (Type, quantité)
+    A chaque tour, si joueur "StockGemme" > 10:
+        Print "Action 1 impossible ...", sinon si "stockgemme" > 9,
+            Print "Une gemme max"
+            Print "StockGemme > 1"
+            Demander quelle type.gemme, 
+                Ajouter une type.gemme.quantité à stockgemme,
+                Diminuer BanqueDegemmes quantité.type.gemme de 1,
+        
+            
